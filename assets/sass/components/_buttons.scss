@@ -1,0 +1,31 @@
+.nav__buttons {
+    margin-left: 800px;
+    margin-top: 15px;
+}
+
+.nav__button--green {
+    background-color: #04aa6d; /**/
+    border: none;
+    color: white; /**/
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2px 1px;
+    cursor: pointer;
+    width: 200px;
+    height: 50px;
+    font-family: "PT MONO", monospace;
+}
+
+.nav__button--white {
+    border-color: rgba(4, 4, 4, 0.334);
+    background-color: white; /**/
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 2px 1px;
+    cursor: pointer;
+    width: 200px;
+    height: 50px;
+}

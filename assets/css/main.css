@@ -77,9 +77,9 @@ h2 {
 }
 
 .nav__button--green {
-  background-color: #04aa6d; /**/
+  background-color: #04aa6d;
   border: none;
-  color: white; /**/
+  color: white;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -93,7 +93,7 @@ h2 {
 
 .nav__button--white {
   border-color: rgba(4, 4, 4, 0.334);
-  background-color: white; /**/
+  background-color: white;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -115,8 +115,10 @@ li {
 }
 
 li a {
+  font-family: "PT MONO", monospace;
+  font-size: 16px;
   display: block;
-  color: #f4f5f9; /**/
+  color: #414a4c;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -144,22 +146,28 @@ li a {
   margin: 20px;
   padding: 20px;
   width: 60%;
+  left: 80px;
 }
 
 .section__image--coffee {
-  width: 30%;
+  width: 34%;
   height: 250px;
-  position: relative;
+  position: absolute;
   margin-left: 900px;
   right: 0;
-  z-index: -1;
-  bottom: -118px;
+  z-index: 1;
+  bottom: -164px;
 }
 
 .section__image--grains {
-  width: 30%;
-  height: 180px;
-  margin-left: 350px;
+  width: 20%;
+  height: 150px;
+  margin-left: 430px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: relative;
+  right: 50px;
+  z-index: 5;
 }
 
 .main__image {
@@ -173,7 +181,7 @@ li a {
   width: 50%;
   bottom: 4px;
   right: 16px;
-  background-color: white; /**/
+  background-color: white;
   color: black;
 }
 
@@ -185,40 +193,43 @@ li a {
 
 .main__box-container {
   background-color: #eff234; /**/
-  width: 100px;
-  height: 100px;
-  margin-left: 450px;
+  width: 126px;
+  height: 126px;
+  margin-left: 425px;
   position: absolute;
   z-index: 1;
 }
 
 .main__box--coral {
-  position: relative;
   margin: -15px 0px 0px -15px;
-  background: #fa824c; /**/
-  width: 100px;
-  height: 100px;
+  background: #fa824c;
+  width: 126px;
+  height: 126px;
 }
 
 .main__box__arrow {
   position: absolute;
-  color: white; /**/
-  margin-top: 14px;
-  margin-left: 14px;
+  color: white;
+  margin-top: 25px;
+  margin-left: 25px;
   width: 40%;
 }
 
 .section__box--blue {
   position: absolute;
-  background-color: #3c91e6; /**/
-  width: 30%;
-  margin-left: 397px;
-  bottom: -50px;
+  background-color: #3c91e6;
+  height: 205px;
+  width: 31%;
+  margin-left: 396px;
+  bottom: -119px;
+  left: 83px;
 }
 
 .section__image {
   position: absolute;
-  width: 30%;
+  left: 90px;
+  width: 28%;
   z-index: 1;
   margin-left: 350px;
+  top: 560px;
 }/*# sourceMappingURL=main.css.map */

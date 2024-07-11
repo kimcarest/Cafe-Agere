@@ -116,7 +116,7 @@ li {
 
 li a {
   display: block;
-  color: white; /**/
+  color: #f4f5f9; /**/
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -149,7 +149,7 @@ li a {
 .section__image--coffee {
   width: 30%;
   height: 250px;
-  position: absolute;
+  position: relative;
   margin-left: 900px;
   right: 0;
   z-index: -1;
@@ -193,6 +193,7 @@ li a {
 }
 
 .main__box--coral {
+  position: relative;
   margin: -15px 0px 0px -15px;
   background: #fa824c; /**/
   width: 100px;

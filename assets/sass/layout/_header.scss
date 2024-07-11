@@ -10,8 +10,10 @@ li {
 }
 
 li a {
+    font-family: "PT MONO", monospace;
+    font-size: 16px;
     display: block;
-    color: #f4f5f9; /**/
+    color: $color-gris;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;

@@ -4,9 +4,9 @@
 }
 
 .nav__button--green {
-    background-color: #04aa6d; /**/
+    background-color: $color-verde;
     border: none;
-    color: white; /**/
+    color: $color-blanco;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -20,7 +20,7 @@
 
 .nav__button--white {
     border-color: rgba(4, 4, 4, 0.334);
-    background-color: white; /**/
+    background-color: $color-blanco;
     text-align: center;
     text-decoration: none;
     display: inline-block;
